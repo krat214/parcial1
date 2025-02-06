@@ -66,11 +66,11 @@ cd parcial1
 📂 src/main/java/com/angel/parcial1
 │── 📂 controller
 │   ├── LoginController.java    # Controlador del login personalizado
-│   ├── MiControlador.java      # Controlador de las rutas público/privado
+│   ├── MainController.java      # Controlador de las rutas público/privado
 │
 │── 📂 security/config
-│   ├── SeguridadConfig.java    # Configuración de Spring Security
-│   ├── ConfiguracionUsuarios.java # Configuración de usuarios en memoria
+│   ├── SecurityConfig.java    # Configuración de Spring Security
+│   ├── UsersConfig.java # Configuración de usuarios en memoria
 │
 │── 📂 resources/templates
 │   ├── login.html              # Página de inicio de sesión personalizada
