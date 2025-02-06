@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @Configuration
-public class ConfiguracionUsuarios {
+public class UsersConfig {
 
     @Bean
     public UserDetailsService userDetailsService() {
